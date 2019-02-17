@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  height: 100%;
+  background: rgb(245, 243, 243);
+}
+
+.form-control-no-border:focus {
+  border-color:#ccc;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
